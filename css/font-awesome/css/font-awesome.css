@@ -767,6 +767,7 @@
   background: : url("../../../images/google-scholar.svg");
   font-weight: bold;
   font-family: 'opensans-bold';
+  background-repeat: no-repeat;
 }
 .fa-google-plus:before {
   content: "\f0d5";
