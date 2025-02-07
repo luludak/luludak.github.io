@@ -763,7 +763,7 @@
   content: "\f0d3";
 }
 .fa-google-plus-square:before {
-  content: "g"; font-weight: bold; font-family: 'opensans-bold';
+  content: url("../../images/google-scholar.svg"); font-weight: bold; font-family: 'opensans-bold';
 }
 .fa-google-plus:before {
   content: "\f0d5";
