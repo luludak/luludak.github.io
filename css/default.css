@@ -1414,3 +1414,11 @@ h4 a.pub:hover {
    text-align: center;
    word-wrap: break-word;
 }
+
+.podcast {
+   background-color: #3385D6;
+}
+
+.podcast.selected {
+   color: orange !important;
+}
