@@ -63,11 +63,6 @@ jQuery(document).ready(function($) {
     $(".description").fadeIn(1000);
   }, 1500);
 
-
-
-
-
-
 /*----------------------------------------------------*/
 /* Smooth Scrolling
 ------------------------------------------------------ */
@@ -119,13 +114,18 @@ jQuery(document).ready(function($) {
   $("#nav-wrap a").each(function(el) {
     onVisibilityChange(el, function() {
       /* your code go here */
-
-      var active_link = $('#nav-wrap a[href="#' + hash + '"]');
-
       navigation_links.parent().removeClass("current");
       el.addClass("current");
     });
   })
+
+  $(window).on('scroll', function(el) {
+    if ($(window).scrollTop() + $(window).height() >= $(document).height()) {
+        // Scroll has reached the bottom of the page
+        navigation_links.parent().removeClass("current");
+        $("li.contact").addClass("current");
+    }
+  });
 
 
 /*----------------------------------------------------*/
