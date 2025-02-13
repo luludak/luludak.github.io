@@ -120,7 +120,7 @@ jQuery(document).ready(function($) {
   })
 
   $(window).on('scroll', function(el) {
-    if ($(window).scrollTop() + $(window).height() >= $(document).height()) {
+    if ($(window).scrollTop() + $(window).height() >= $(document).height() - 100) {
         // Scroll has reached the bottom of the page
         navigation_links.parent().removeClass("current");
         $("li.contact").addClass("current");
