@@ -1249,6 +1249,12 @@ properly.
    .row .offset-11 {
       margin-left: 0%;
    }
+
+
+   .podcast {
+      background-color: #3385D6;
+      padding: 11px 5px 10px 5px !important;
+   }
 }
 
 /* mobile narrow
