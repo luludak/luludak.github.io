@@ -1434,6 +1434,6 @@ section#news {
     color: white;
 }
 
-section#news > h2 {
+section#news h2 {
     color: white;
 }
