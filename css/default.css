@@ -1432,6 +1432,7 @@ h4 a.pub:hover {
 section#news {
     background: #2980b9;
     color: white;
+	padding-top: 50pt;
 }
 
 section#news h2 {
