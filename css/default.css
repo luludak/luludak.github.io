@@ -1428,3 +1428,12 @@ h4 a.pub:hover {
 .podcast.selected {
    color: orange !important;
 }
+
+section#news {
+    background: #2980b9;
+    color: white;
+}
+
+section#news > h2 {
+    color: white;
+}
